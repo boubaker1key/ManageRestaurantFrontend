@@ -1,5 +1,8 @@
 # 🍽️ Restaurant Management Frontend
 
+## Buy me a coffee
+coff.ee/prome
+
 This is the frontend for a restaurant management system.  
 It is built using **Next.js**, **React**, and **TailwindCSS**.
 
