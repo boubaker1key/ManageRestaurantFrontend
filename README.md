@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Management Frontend
 
-## Buy me a coffee
+## You can support me at
 https://coff.ee/prome
 
 This is the frontend for a restaurant management system.  
