@@ -89,12 +89,12 @@ export default function MesaProductosPage() {
       const user = JSON.parse(userJson);
       if (user.rol !== 'admin' && user.rol !== 'empleado') {
         alert('❌ Acceso denegado. Solo administradores y empleados pueden acceder.');
-        //router.push('/login');
+        router.push('/login');
       } else {
         setUsuario(user);
       }
     } else {
-      //router.push('/login');
+      router.push('/login');
     }
   }, [router]);
 
