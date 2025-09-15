@@ -20,7 +20,7 @@ export default function DashboardRestaurante() {
     const user = localStorage.getItem('usuario');
     if (!user) {
       // Si no hay usuario logueado, redirigir al login
-      router.push('/login');
+      //router.push('/login');
       return;
     }
     setUsuario(JSON.parse(user));
