@@ -37,7 +37,7 @@ export default function DashboardLayout() {
       setUsuario(JSON.parse(userJson));
     } else {
       // Si no hay usuario logueado, redirigir a la página de login
-      //router.push('/login');
+      router.push('/login');
     }
   }, [router]);
 
