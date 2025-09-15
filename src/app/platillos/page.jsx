@@ -29,13 +29,13 @@ export default function Platillos() {
       if (user.rol !== 'admin' && user.rol !== 'empleado') {
         // Si el usuario no tiene un rol válido, lo redirigimos
         alert('❌ Acceso denegado. Solo administradores y empleados pueden acceder.');
-        //router.push('/login'); // Redirige a login o página de acceso denegado
+        router.push('/login'); // Redirige a login o página de acceso denegado
       } else {
         setUsuario(user);
       }
     } else {
       // Si no hay usuario logueado, redirigir al login
-      //router.push('/login');
+      router.push('/login');
     }
   }, [router]);
 
